@@ -37,3 +37,44 @@ body {
 .delete-btn .far {
 	margin-right: 10px;
 }
+
+h3 {
+	position: absolute;
+	top: 12%;
+	font-size: 35px;
+	color: rgb(53, 53, 53);
+	transform: translate(-100px);
+	opacity: 0;
+	user-select: none;
+}
+
+.sub-heading {
+	position: absolute;
+	top: 25%;
+	width: 60%;
+	text-align: center;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.493);
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 1px;
+	transform: translate(-100px);
+	opacity: 0;
+}
+
+p {
+	user-select: none;
+}
+
+.warning {
+	position: relative;
+	top: 5%;
+	width: 80%;
+	height: 120px;
+	border-radius: 10px;
+	background-color: rgba(255, 143, 116, 0.116);
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	opacity: 0;
+}
