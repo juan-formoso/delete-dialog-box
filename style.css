@@ -160,6 +160,13 @@ button {
 	transition-delay: .3s;
 }
 
+.container.active .cancel {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1s;
+	transition-delay: .3s;
+}
+
 .container.active h3{
 	transition: 1s;
 	opacity: 1;
