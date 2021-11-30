@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Delete Dialog</title>
+</head>
+<body>
+	<div id="container" class="container">
+		<i id="allclose" class="fas fa-times" onclick="closeCont()"></i>
+		<h3>Are you sure?</h3>
+		<p class="sub-heading">This is going to be permanently delete, are you sure?</p>
+		<div class="warning">
+			<i class="fas fa-exclamation-triangle"></i>
+			<p class="warn-para">By deleting this item, you can't restore it later!</p>
+		</div>
+		<button class="cancel" onclick="closeCont()">Cancel</button>
+		<button class="yes-delete">Yes, Delete</button>
+	</div>
+	<button class="delete-btn" id="delete">
+		<i class="far fa-trash-alt"></i>Delete</button>
+<script src="script.js"></script>
+</body>
+</html>
