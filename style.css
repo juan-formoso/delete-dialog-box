@@ -78,3 +78,111 @@ p {
 	overflow: hidden;
 	opacity: 0;
 }
+
+#allclose {
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	font-size: 30px;
+	color: rgba(87, 89, 117, 0.294);
+	cursor: pointer;
+}
+
+#allclose:hover {
+	color: rgba(66, 66, 66);
+}
+
+.warning .fas {
+	position: absolute;
+	left: 15%;
+	font-size: 40px;
+	color: rgb(255, 87, 87);
+	opacity: 0;
+}
+
+.warn-para {
+	position: absolute;
+	right: 0;
+	font-size: 20px;
+	padding: 20px;
+	width: 75%;
+	color: rgb(92, 92, 92);
+	opacity: 0;
+}
+
+.cancel {
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	width: 150px;
+	height: 50px;
+	border: 2px solid rgb(87, 89, 117);
+	background: transparent;
+	border-radius: 5px;
+	color: rgb(87, 89, 117);
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+.yes-delete {
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	width: 220px;
+	height: 50px;
+	border-radius: 5px;
+	background: rgb(255, 94, 94);
+	transform: translateY(100px);
+	opacity: 0;
+}
+
+button {
+	outline: 0;
+	border: 0;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	user-select: none;
+}
+
+.container.active {
+	width: 500px;
+	height: 450px;
+	transition: .1s;
+}
+
+.container.active .yes-delete {
+	opacity: 1;
+	transform: translateY(0);
+	transition: 1s;
+	transition-delay: .3s;
+}
+
+.container.active h3{
+	transition: 1s;
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.container.active .sub-heading {
+	transition: 1s;
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: .3s;
+}
+
+.container.active .warning {
+	opacity: 1;
+	transition: 1s;
+	transition-delay: .6s;
+}
+
+.container.active .warn-para {
+	opacity: 1;
+}
+
+.container.active .fas {
+	opacity: 1;
+}
